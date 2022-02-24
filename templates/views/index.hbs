@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <title>Weather</title>
+    <link rel="icon" href="/img/weather-icon.png">
+    
+</head>
+<body>
+    <div class="main-content">
+       {{>header}}
+       <p>Use this Site to get Your weather</p>
+       
+       <form>
+           <input placeholder="Location">
+           <button>Submit</button>
+       </form>
+       <p id="message-1">
+
+       </p>
+       <p id="message-2">
+
+       </p>
+    </div>
+    
+    {{!-- <h1>{{title}}</h1> --}}
+    {{!-- <p>Created By {{name}}</p> --}}
+    {{>footer}}
+    
+    <script src="/JS/app.js"></script>
+</body>
+</html>
