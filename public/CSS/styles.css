@@ -16,6 +16,8 @@ body{
    display:flex;
    flex-direction: column;
    min-height: 100vh;
+
+   background-color: rgb(144, 240, 208);
 }
 .main-content{
    flex-grow: 1;
@@ -31,6 +33,7 @@ footer{
 header{
     margin-top: 16px;
     margin-bottom: 48px;
+    color: rgb(11, 85, 85);
 }
 
 h1{
@@ -39,7 +42,7 @@ h1{
 }
 
 header a{
-    color:#888888;
+    color:cadetblue;
     margin-right:16px;
     text-decoration: none;
 }
@@ -51,6 +54,9 @@ header a{
 input{
    border: 1px solid #cccccc;
    padding: 8px;
+   margin-top: 50px;
+   border-radius: 10px;
+   width: 250px;
 }
 
 button{
@@ -59,4 +65,6 @@ button{
    background: #888888;
    color: white;
    padding: 8px;
+   border-radius: 10px;
+   width: 100px;
 }  
