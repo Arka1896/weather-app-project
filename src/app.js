@@ -4,6 +4,7 @@ const hbs=require('hbs')
 
 const geocode=require('./utils/geocode');
 const forecast=require('./utils/forecast');
+const port=process.env.PORT || 3000
 
 
 //console.log(__dirname)//path of directoty of file
@@ -139,6 +140,6 @@ app.get('/about',(req,res)=>{
 //app.com/help
 //app.com/about
 
-app.listen(3000,()=>{
-    console.log('Server is Up')
+app.listen(port,()=>{
+    console.log('Server is Up on port'+port)
 })
